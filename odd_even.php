@@ -79,7 +79,7 @@ $z = $x + $y;
 echo "The Total Sum of Even Numbers is $x" . PHP_EOL;
 echo "The Total Sum of Odd Numbers is $y" . PHP_EOL;
 echo "The Addition of the Sum of Even and Odd Numbers are $z" . PHP_EOL;
-*/
+
 //Calculate the rows of the triangle from the row index
 
 $n = (int)readline("Number lines do you want: ");
@@ -109,3 +109,14 @@ for( $i = 0 ; $i < $n ; $i++ ){
 };
 
 echo "The sum of line number $n is $sum" . PHP_EOL;
+*/
+//Repeating string multiple times.
+
+$a = readline("Input the string: ");
+$x = (int)readline("Enter the number of time: ");
+
+for( $i = 1 ; $i <= $x ; $i++ ){
+    echo "$a";
+};
+
+echo PHP_EOL;
