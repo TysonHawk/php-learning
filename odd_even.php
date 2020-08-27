@@ -29,7 +29,7 @@ if( $x % 2 == 0 ){
 else{
     echo "The Number is Odd" . PHP_EOL;
 };
-*/
+
 //Print even number from 1 to 20
 
 for( $i = 1 ; $i <= 20 ; $i++ ){
@@ -37,3 +37,14 @@ for( $i = 1 ; $i <= 20 ; $i++ ){
         echo "$i" . PHP_EOL;
     }
 };
+*/
+//Sum of odd number.
+
+$x = 0;
+for( $i = 1 ; $i <= 10 ; $i++ ){
+    if( $i %2 != 0 ){
+        $x = $x + $i;
+    }
+};
+
+echo "The Total Sum of Odd Number $x" . PHP_EOL;
