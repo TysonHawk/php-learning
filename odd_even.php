@@ -18,7 +18,7 @@ for( $i = 1 ; $i <= 10 ; $i++ ){
         echo "Odd" . PHP_EOL;
     }
 };
-*/
+
 //Read if a number is even or odd
 
 $x = (int)readline("Enter any Number: ");
@@ -29,5 +29,11 @@ if( $x % 2 == 0 ){
 else{
     echo "The Number is Odd" . PHP_EOL;
 };
+*/
+//Print even number from 1 to 20
 
-//
+for( $i = 1 ; $i <= 20 ; $i++ ){
+    if( $i % 2 == 0){
+        echo "$i" . PHP_EOL;
+    }
+};
