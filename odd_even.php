@@ -37,14 +37,25 @@ for( $i = 1 ; $i <= 20 ; $i++ ){
         echo "$i" . PHP_EOL;
     }
 };
-*/
+
 //Sum of odd number.
 
 $x = 0;
 for( $i = 1 ; $i <= 10 ; $i++ ){
-    if( $i %2 != 0 ){
+    if( $i % 2 != 0 ){
         $x = $x + $i;
     }
 };
 
 echo "The Total Sum of Odd Number $x" . PHP_EOL;
+*/
+//Sum of even number
+
+$x = 0;
+for( $i = 1 ; $i <= 10 ; $i++ ){
+    if( $i % 2 == 0 ){
+        $x = $x + $i;
+    }
+};
+
+echo "The Total Sum of Even Number $x" . PHP_EOL;
