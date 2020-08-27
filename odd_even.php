@@ -93,19 +93,19 @@ for( $i = 1 ; $i <= $n ; $i++ ){
     echo PHP_EOL;
 }
 
-$y = (int)readline("Sum of the line number: ");
+
 
 $z = 0;
-for( $i = 0 ; $i < $y ; $i++ ){
+for( $i = 0 ; $i < $n ; $i++ ){
     $z = $z + $i;
 }
 
 $first = (2 * $z) + 1;
 $sum = 0;
-for( $i = 0 ; $i < $y ; $i++ ){
+for( $i = 0 ; $i < $n ; $i++ ){
     $sum = $sum + $first;
 //    $sum = $sum + 2;
     $first = $first + 2;
 };
 
-echo "$sum" . PHP_EOL;
+echo "The sum of line number $n is $sum" . PHP_EOL;
